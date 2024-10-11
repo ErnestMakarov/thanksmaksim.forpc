@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+
+header {
+    background: url("https://habrastorage.org/files/161/60c/b34/16160cb34a7342ae84ffa48a39b8a298.png");
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.page{
+    padding-left: 100px;
+
+    flex: 1 1 auto;
+    position: relative;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background:url("https://habrastorage.org/files/161/60c/b34/16160cb34a7342ae84ffa48a39b8a298.png");
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 400
+    px;
+
+
+}
+img {
+    height: 400px;
+    width: 400px;
+    margin-bottom: 1px;
+    margin-left: 870px;
+    position: absolute;
+    margin-top: -1200px;
+    
+
+
+}
+
+
+
+
+
+
+
+.text-wrapper {
+    position: relative;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+    height: 1.5em;
+  }
+  
+  .text-container {
+    font-size: 2em;
+    text-align: center;
+    margin-top: 50px;
+    position: relative;
+    height: 1.5em;
+  }
+  
+  .text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    animation: switchText 4s infinite;
+  }
+  
+  #text-1 {
+    animation-delay: 0s; /* Первый текст начнет сразу */
+  }
+  
+  #text-2 {
+    animation-delay: 2s; /* Второй текст начнет через 2 секунды */
+  }
+  
+  @keyframes switchText {
+    0%, 50% {
+      opacity: 1; /* Текст виден в начале и до 50% */
+    }
+    50%, 100% {
+      opacity: 0; /* Текст скрыт до конца */
+    }
+  }
+
+  .second-image { 
+    height: 300px;
+    width: 300px;
+    margin-bottom: 1px;
+    margin-left: 10px;
+    position: absolute;
+    margin-top: -815px;
+  }
+
+  .third-image { 
+    height: 300px;
+    width: 300px;
+    margin-bottom: 1px;
+    margin-left: 10px;
+    position: absolute;
+    margin-top: -450px;
+  }
+
+  
