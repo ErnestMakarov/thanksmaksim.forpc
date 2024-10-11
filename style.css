@@ -1,5 +1,11 @@
+
+
+
+
 body {
     font-family: Arial, sans-serif;
+    background-image: url('https://kartinki.pics/uploads/posts/2022-12/thumbs/1669935685_4-kartinkin-net-p-fon-dlya-saita-svetlii-vkontakte-4.jpg');
+    color: black;
     line-height: 1.6;
     margin: 0;
     padding: 0;
@@ -58,10 +64,10 @@ footer {
 
 }
 img {
-    height: 400px;
-    width: 400px;
+    height: 200px;
+    width: 200px;
     margin-bottom: 1px;
-    margin-left: 870px;
+    margin-left: 250px;
     position: absolute;
     margin-top: -1200px;
     
